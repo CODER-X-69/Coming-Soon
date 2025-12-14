@@ -20,24 +20,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 "stroke": {
                     "width": 0,
                     "color": "#000000"
-                },
-                "polygon": {
-                    "nb_sides": 5
                 }
             },
             "opacity": {
                 "value": 0.5,
-                "random": false,
-                "anim": {
-                    "enable": false
-                }
+                "random": false
             },
             "size": {
                 "value": 3,
-                "random": true,
-                "anim": {
-                    "enable": false
-                }
+                "random": true
             },
             "line_linked": {
                 "enable": true,
@@ -53,12 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "random": false,
                 "straight": false,
                 "out_mode": "out",
-                "bounce": false,
-                "attract": {
-                    "enable": false,
-                    "rotateX": 600,
-                    "rotateY": 1200
-                }
+                "bounce": false
             }
         },
         "interactivity": {
